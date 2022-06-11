@@ -66,12 +66,6 @@ p {
   border: 1px solid var(--primary-color);
 }
 
-.homepage-link {
-  color: var(--primary-color);
-  text-align: center;
-  display: block;
-}
-
 .about-paragraphs {
   margin: 0;
 }
@@ -104,7 +98,7 @@ p {
   display: block;
   font-size: 18px;
   max-width: 200px;
-  margin-bottom: 20px;
+  margin: 30px auto;
   padding: 20px 15px;
   text-align: center;
   text-decoration: none;
@@ -115,3 +109,22 @@ p {
   box-shadow: var(--box-shadow);
   padding: 8px;
 }
+
+@media (max-width: 576px) {
+  .heading h2 {font-size: 20px;}
+  .heading h1 {font-size: 40px;}
+  .heading h3 {font-size:16px}
+  .navigation-links{margin: 12px auto}
+  .navigation-links a {
+    font-size: 13px;
+    margin:7px;
+    padding: 12px}
+  .app-title {font-size: 20px;
+  margin-top: 10px;}
+  .app-description {font-size: 14px;}
+  .app-link { 
+    font-size: 13px;
+    margin: 12px auto;
+    padding: 12px;
+    }
+} 
